@@ -1,4 +1,4 @@
-//Dado el siguiente algoritmo ¿ Indique que liena se puede modificar para el seudocogigo imprime un triangulo 
+//Dado el siguiente algoritmo Â¿ Indique que liena se puede modificar para el seudocogigo imprime un triangulo 
 // de * tal como se indica en la salida ?
 //Nota: Escribir "ok" Sin Saltar // se imprime ok y el cursor se uqeda en la misma linea
 Funcion triangulos_estrellas()
@@ -12,7 +12,7 @@ Funcion triangulos_estrellas()
 	Fin Para
 FinFuncion
 
-//¿ Cual es el resultado que presenta la variable x en el siguiente seudocodigo?
+//Â¿ Cual es el resultado que presenta la variable x en el siguiente seudocodigo?
 Funcion expresion()
 	Definir a,b,x Como Entero
 	a=3;b=6
@@ -24,7 +24,7 @@ Funcion expresion()
 	escribir "3 + 3 * (3 + 6) - 6 * 3 + (trunc(6 / 3) - 2 + 3 * 3 mod 2)"
 	escribir "3 + 3 * 9 - 6 * 3 + (2 - 2 + 9 mod 2)"
 	escribir "3 + 27 - 18 + (2 - 2 + 1)"
-	escribir "3 + 27 - 18 + 1"
+	escribir "3 +Â 27Â -Â 18Â +Â 1"
 	escribir "=13"
 	Escribir "-----------------------------------------------------------"
 	Escribir " seleccione un alternativa correcta "
@@ -36,7 +36,7 @@ Funcion expresion()
 	Escribir " La respuesta correcta es la opcion: b"
 FinFuncion
 
-//Analice las siguientes lineas de programas y escriba ¿Cual es la respuesta que genera m y n?
+//Analice las siguientes lineas de programas y escriba Â¿Cual es la respuesta que genera m y n?
 Funcion presentar()
 	Definir n,m,r Como Entero;
 	n=20;m=25;r=1
@@ -67,7 +67,7 @@ FinFuncion
 
 //Realizar  un Pseudocodigo   que permita ingresar una expresion matematica caracter por caracter . 
 //A final debera presentar el operador matematico con mayor repeticiones .Los operadores considerados son :(*,+,-./).
-//El programa finaliza cuando se ingresa una F
+//El programa finaliza cuando seÂ ingresaÂ unaÂ F
 //Ejemplo : si la expresion="(4+2)*5/2-(5+2+3)
 //presentar " el cracter '+'  tiene mayor repeticiones ",3
 Funcion operador_matematico()
@@ -117,14 +117,14 @@ Funcion operador_matematico()
 		repeticiones = cantidadDiv
 		operadorMay = "/"
 	Fin Si
-	Escribir "El operador mas repetido es: ",operadorMay
+	Escribir "El operador mas repetido es:Â ",operadorMay
 FinFuncion
 
-//Elaborar un algortimo tal ,que dado un nombre y la edad en años . Calcule en numero de pulsaciones 
+//Elaborar un algortimo tal ,que dado un nombre y la edad en aÃ±os . Calcule en numero de pulsaciones 
 //que debe tener por cada segundo de ejercicios segun la edad de la persona.
 //La formula de las pulsaciones = (200-edad )/base . El valor de la base=10
-//Si la edad esta entre 1 y 9 años se aplica la formula con la base 10; si es menor de edad a la base 
-// se le incrementa un 10%; Si es mayor de edad la base se incrementa un 15%.Para todos los casos las pulsaciones 
+//Si la edad esta entre 1 y 9 aÃ±os se aplica la formula con la base 10; si es menor de edad a la base 
+//se le incrementa un 10%; Si es mayor de edad la base se incrementa un 15%.Para todos los casos las pulsaciones 
 //=(20-edad)/base .Debe presentar la edad y pulsaciones calculada.
 
 Funcion edad_pulsaciones()
@@ -168,10 +168,10 @@ Funcion serie_numeros()
 	Escribir "Digite la cantidad de numeros:"
 	Leer num
     Para i desde 1 hasta num hacer 
-        Escribir "Ingrese un número:" , i ":"
+        Escribir "Ingrese un nÃºmero:" , i ":"
 		Leer num_actual
         Si (num_actual > 0) Y ((num_actual % 3 = 0) Y (num_actual % 4 = 0)) Entonces
-            Escribir "El número " , num_actual , " es positivo y es múltiplo de 3 y 4"
+            Escribir "El nÃºmero " , num_actual , " es positivo y es mÃºltiplo de 3 y 4"
         FinSi
         Si (num_actual < 0) Y ((num_actual % 3 <> 0) Y (num_actual % 4 <> 0)) Entonces
             cantidad_negativos <- cantidad_negativos + 2
@@ -179,7 +179,7 @@ Funcion serie_numeros()
 		
     FinPara
 	
-    Escribir "La cantidad de números negativos que no son múltiplos de 3 y 4 es: ", cantidad_negativos
+    Escribir "La cantidad de nÃºmeros negativos que no son mÃºltiplos de 3 y 4 es: ", cantidad_negativos
 FinFuncion
 
 
